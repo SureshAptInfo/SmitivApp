@@ -1,0 +1,32 @@
+PODS:
+  - AIFlatSwitch (1.0.2)
+  - BFPaperButton (2.1.2)
+  - DLRadioButton (1.4.12)
+  - MaterialKit (0.4)
+  - PXGoogleDirections (1.6)
+
+DEPENDENCIES:
+  - AIFlatSwitch (~> 1.0.1)
+  - BFPaperButton
+  - DLRadioButton (~> 1.4)
+  - MaterialKit (~> 0.4)
+  - PXGoogleDirections
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AIFlatSwitch
+    - BFPaperButton
+    - DLRadioButton
+    - MaterialKit
+    - PXGoogleDirections
+
+SPEC CHECKSUMS:
+  AIFlatSwitch: 5ab22806eeff3e09d585c2f13d22bfa6e3427191
+  BFPaperButton: a25fdd3ff6898bdbd5cc9b1334ca36adb0296b9f
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  MaterialKit: 2e5267bcf410b82793f2b92d2111f8ae4ed2c3f2
+  PXGoogleDirections: e0810665aa328396856de3192706f60af434c6fd
+
+PODFILE CHECKSUM: 4a4b97c3fee487e53509c43420b452ad8950bbb0
+
+COCOAPODS: 1.5.3

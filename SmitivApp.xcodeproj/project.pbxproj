@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A505210211ABBC5000A631B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A50520F211ABBC5000A631B /* AppDelegate.swift */; };
+		6A505219211ABBC5000A631B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A505218211ABBC5000A631B /* Assets.xcassets */; };
+		6A50521C211ABBC5000A631B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A50521A211ABBC5000A631B /* LaunchScreen.storyboard */; };
+		6A505227211ABBC5000A631B /* SmitivAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A505226211ABBC5000A631B /* SmitivAppTests.swift */; };
+		6A505232211ABBC5000A631B /* SmitivAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A505231211ABBC5000A631B /* SmitivAppUITests.swift */; };
+		6A5B2017211B16C0000C1801 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B2016211B16C0000C1801 /* GoogleMaps.bundle */; };
+		6A5B201B211B1742000C1801 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B2018211B1742000C1801 /* CoreData.framework */; };
+		6A5B201C211B1742000C1801 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B2019211B1742000C1801 /* CoreLocation.framework */; };
+		6A5B201D211B1742000C1801 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B201A211B1742000C1801 /* MobileCoreServices.framework */; };
+		6A5B201E211B1ADD000C1801 /* PXGoogleDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */; };
+		6A5B2021211B54C9000C1801 /* HeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */; };
+		6A5B2023211B54F3000C1801 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */; };
+		6A5B202A211B556E000C1801 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2027211B556E000C1801 /* AvatarImageView.swift */; };
+		6A5B202B211B556E000C1801 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2029211B556E000C1801 /* FXBlurView.m */; };
+		6A5B202D211BDB07000C1801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A99C599211B03F900A3441D /* Main.storyboard */; };
+		6A5B202F211C0A8A000C1801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B202E211C0A8A000C1801 /* ViewController.swift */; };
+		6A99C595211B03D000A3441D /* GoogleDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */; };
+		6A99C596211B03D000A3441D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C592211B03D000A3441D /* TimerViewController.swift */; };
+		6A99C598211B03D000A3441D /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C594211B03D000A3441D /* ChildViewController.swift */; };
+		6A99C59F211B0D2000A3441D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C59D211B0D2000A3441D /* ResultsViewController.swift */; };
+		D3FD74B554222A599A844EB8 /* Pods_SmitivApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F14E769C977888643DF37B9 /* Pods_SmitivApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A505223211ABBC5000A631B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A505204211ABBC5000A631B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A50520B211ABBC5000A631B;
+			remoteInfo = SmitivApp;
+		};
+		6A50522E211ABBC5000A631B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A505204211ABBC5000A631B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A50520B211ABBC5000A631B;
+			remoteInfo = SmitivApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00C1F4092C6D048D9A730EC4 /* Pods-SmitivApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmitivApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmitivApp/Pods-SmitivApp.release.xcconfig"; sourceTree = "<group>"; };
+		4F14E769C977888643DF37B9 /* Pods_SmitivApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmitivApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A50520C211ABBC5000A631B /* SmitivApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmitivApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A50520F211ABBC5000A631B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A505218211ABBC5000A631B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A50521B211ABBC5000A631B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A50521D211ABBC5000A631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A505222211ABBC5000A631B /* SmitivAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmitivAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A505226211ABBC5000A631B /* SmitivAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmitivAppTests.swift; sourceTree = "<group>"; };
+		6A505228211ABBC5000A631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A50522D211ABBC5000A631B /* SmitivAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmitivAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A505231211ABBC5000A631B /* SmitivAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmitivAppUITests.swift; sourceTree = "<group>"; };
+		6A505233211ABBC5000A631B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5B2016211B16C0000C1801 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMaps.bundle; sourceTree = "<group>"; };
+		6A5B2018211B1742000C1801 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6A5B2019211B1742000C1801 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A5B201A211B1742000C1801 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PXGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionView.swift; sourceTree = "<group>"; };
+		6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		6A5B2026211B556D000C1801 /* SmitivApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmitivApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		6A5B2027211B556E000C1801 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvatarImageView.swift; path = Helpers/AvatarImageView.swift; sourceTree = "<group>"; };
+		6A5B2028211B556E000C1801 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = Helpers/FXBlurView.h; sourceTree = "<group>"; };
+		6A5B2029211B556E000C1801 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = Helpers/FXBlurView.m; sourceTree = "<group>"; };
+		6A5B202C211B560D000C1801 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Helpers/Header.h; sourceTree = "<group>"; };
+		6A5B202E211C0A8A000C1801 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDirectionViewController.swift; sourceTree = "<group>"; };
+		6A99C592211B03D000A3441D /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		6A99C594211B03D000A3441D /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		6A99C59A211B03F900A3441D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A99C59D211B0D2000A3441D /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F671C7E26EB779CB8075CCA8 /* Pods-SmitivApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmitivApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmitivApp/Pods-SmitivApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A505209211ABBC5000A631B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B201E211B1ADD000C1801 /* PXGoogleDirections.framework in Frameworks */,
+				6A5B201B211B1742000C1801 /* CoreData.framework in Frameworks */,
+				6A5B201C211B1742000C1801 /* CoreLocation.framework in Frameworks */,
+				6A5B201D211B1742000C1801 /* MobileCoreServices.framework in Frameworks */,
+				D3FD74B554222A599A844EB8 /* Pods_SmitivApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A50521F211ABBC5000A631B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A50522A211ABBC5000A631B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A505203211ABBC5000A631B = {
+			isa = PBXGroup;
+			children = (
+				6A50520E211ABBC5000A631B /* SmitivApp */,
+				6A505225211ABBC5000A631B /* SmitivAppTests */,
+				6A505230211ABBC5000A631B /* SmitivAppUITests */,
+				6A50520D211ABBC5000A631B /* Products */,
+				73F4913DDE1E3FE4254BEBD8 /* Pods */,
+				CFE0EC8E44E9B50E2E9C302D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A50520D211ABBC5000A631B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A50520C211ABBC5000A631B /* SmitivApp.app */,
+				6A505222211ABBC5000A631B /* SmitivAppTests.xctest */,
+				6A50522D211ABBC5000A631B /* SmitivAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A50520E211ABBC5000A631B /* SmitivApp */ = {
+			isa = PBXGroup;
+			children = (
+				6A50520F211ABBC5000A631B /* AppDelegate.swift */,
+				6A5B202E211C0A8A000C1801 /* ViewController.swift */,
+				6A99C594211B03D000A3441D /* ChildViewController.swift */,
+				6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */,
+				6A99C592211B03D000A3441D /* TimerViewController.swift */,
+				6A99C59D211B0D2000A3441D /* ResultsViewController.swift */,
+				6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */,
+				6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */,
+				6A5B202C211B560D000C1801 /* Header.h */,
+				6A5B2027211B556E000C1801 /* AvatarImageView.swift */,
+				6A5B2028211B556E000C1801 /* FXBlurView.h */,
+				6A5B2029211B556E000C1801 /* FXBlurView.m */,
+				6A99C599211B03F900A3441D /* Main.storyboard */,
+				6A505218211ABBC5000A631B /* Assets.xcassets */,
+				6A50521A211ABBC5000A631B /* LaunchScreen.storyboard */,
+				6A50521D211ABBC5000A631B /* Info.plist */,
+				6A5B2016211B16C0000C1801 /* GoogleMaps.bundle */,
+				6A5B2026211B556D000C1801 /* SmitivApp-Bridging-Header.h */,
+			);
+			path = SmitivApp;
+			sourceTree = "<group>";
+		};
+		6A505225211ABBC5000A631B /* SmitivAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A505226211ABBC5000A631B /* SmitivAppTests.swift */,
+				6A505228211ABBC5000A631B /* Info.plist */,
+			);
+			path = SmitivAppTests;
+			sourceTree = "<group>";
+		};
+		6A505230211ABBC5000A631B /* SmitivAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A505231211ABBC5000A631B /* SmitivAppUITests.swift */,
+				6A505233211ABBC5000A631B /* Info.plist */,
+			);
+			path = SmitivAppUITests;
+			sourceTree = "<group>";
+		};
+		73F4913DDE1E3FE4254BEBD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F671C7E26EB779CB8075CCA8 /* Pods-SmitivApp.debug.xcconfig */,
+				00C1F4092C6D048D9A730EC4 /* Pods-SmitivApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFE0EC8E44E9B50E2E9C302D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */,
+				6A5B2018211B1742000C1801 /* CoreData.framework */,
+				6A5B2019211B1742000C1801 /* CoreLocation.framework */,
+				6A5B201A211B1742000C1801 /* MobileCoreServices.framework */,
+				4F14E769C977888643DF37B9 /* Pods_SmitivApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A50520B211ABBC5000A631B /* SmitivApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A505236211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivApp" */;
+			buildPhases = (
+				9A5C6DA61183737B4B0B4D0F /* [CP] Check Pods Manifest.lock */,
+				6A505208211ABBC5000A631B /* Sources */,
+				6A505209211ABBC5000A631B /* Frameworks */,
+				6A50520A211ABBC5000A631B /* Resources */,
+				355061C85D4B4142EC1B84A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmitivApp;
+			productName = SmitivApp;
+			productReference = 6A50520C211ABBC5000A631B /* SmitivApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A505221211ABBC5000A631B /* SmitivAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A505239211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivAppTests" */;
+			buildPhases = (
+				6A50521E211ABBC5000A631B /* Sources */,
+				6A50521F211ABBC5000A631B /* Frameworks */,
+				6A505220211ABBC5000A631B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A505224211ABBC5000A631B /* PBXTargetDependency */,
+			);
+			name = SmitivAppTests;
+			productName = SmitivAppTests;
+			productReference = 6A505222211ABBC5000A631B /* SmitivAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A50522C211ABBC5000A631B /* SmitivAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A50523C211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivAppUITests" */;
+			buildPhases = (
+				6A505229211ABBC5000A631B /* Sources */,
+				6A50522A211ABBC5000A631B /* Frameworks */,
+				6A50522B211ABBC5000A631B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A50522F211ABBC5000A631B /* PBXTargetDependency */,
+			);
+			name = SmitivAppUITests;
+			productName = SmitivAppUITests;
+			productReference = 6A50522D211ABBC5000A631B /* SmitivAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A505204211ABBC5000A631B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Agility Macbook";
+				TargetAttributes = {
+					6A50520B211ABBC5000A631B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					6A505221211ABBC5000A631B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A50520B211ABBC5000A631B;
+					};
+					6A50522C211ABBC5000A631B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A50520B211ABBC5000A631B;
+					};
+				};
+			};
+			buildConfigurationList = 6A505207211ABBC5000A631B /* Build configuration list for PBXProject "SmitivApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A505203211ABBC5000A631B;
+			productRefGroup = 6A50520D211ABBC5000A631B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A50520B211ABBC5000A631B /* SmitivApp */,
+				6A505221211ABBC5000A631B /* SmitivAppTests */,
+				6A50522C211ABBC5000A631B /* SmitivAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A50520A211ABBC5000A631B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A50521C211ABBC5000A631B /* LaunchScreen.storyboard in Resources */,
+				6A505219211ABBC5000A631B /* Assets.xcassets in Resources */,
+				6A5B2017211B16C0000C1801 /* GoogleMaps.bundle in Resources */,
+				6A5B202D211BDB07000C1801 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A505220211ABBC5000A631B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A50522B211ABBC5000A631B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		355061C85D4B4142EC1B84A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmitivApp/Pods-SmitivApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AIFlatSwitch/AIFlatSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/BFPaperButton/BFPaperButton.framework",
+				"${BUILT_PRODUCTS_DIR}/DLRadioButton/DLRadioButton.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialKit/MaterialKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AIFlatSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BFPaperButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLRadioButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmitivApp/Pods-SmitivApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A5C6DA61183737B4B0B4D0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmitivApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A505208211ABBC5000A631B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B202A211B556E000C1801 /* AvatarImageView.swift in Sources */,
+				6A505210211ABBC5000A631B /* AppDelegate.swift in Sources */,
+				6A99C598211B03D000A3441D /* ChildViewController.swift in Sources */,
+				6A5B2023211B54F3000C1801 /* ListCollectionViewCell.swift in Sources */,
+				6A5B202F211C0A8A000C1801 /* ViewController.swift in Sources */,
+				6A99C596211B03D000A3441D /* TimerViewController.swift in Sources */,
+				6A5B2021211B54C9000C1801 /* HeaderCollectionView.swift in Sources */,
+				6A99C59F211B0D2000A3441D /* ResultsViewController.swift in Sources */,
+				6A5B202B211B556E000C1801 /* FXBlurView.m in Sources */,
+				6A99C595211B03D000A3441D /* GoogleDirectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A50521E211ABBC5000A631B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A505227211ABBC5000A631B /* SmitivAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A505229211ABBC5000A631B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A505232211ABBC5000A631B /* SmitivAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A505224211ABBC5000A631B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A50520B211ABBC5000A631B /* SmitivApp */;
+			targetProxy = 6A505223211ABBC5000A631B /* PBXContainerItemProxy */;
+		};
+		6A50522F211ABBC5000A631B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A50520B211ABBC5000A631B /* SmitivApp */;
+			targetProxy = 6A50522E211ABBC5000A631B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A50521A211ABBC5000A631B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A50521B211ABBC5000A631B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A99C599211B03F900A3441D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A99C59A211B03F900A3441D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A505234211ABBC5000A631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A505235211ABBC5000A631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A505237211ABBC5000A631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F671C7E26EB779CB8075CCA8 /* Pods-SmitivApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.sampleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmitivApp/SmitivApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A505238211ABBC5000A631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C1F4092C6D048D9A730EC4 /* Pods-SmitivApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.sampleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmitivApp/SmitivApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A50523A211ABBC5000A631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.SmitivAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmitivApp.app/SmitivApp";
+			};
+			name = Debug;
+		};
+		6A50523B211ABBC5000A631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.SmitivAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmitivApp.app/SmitivApp";
+			};
+			name = Release;
+		};
+		6A50523D211ABBC5000A631B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.SmitivAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmitivApp;
+			};
+			name = Debug;
+		};
+		6A50523E211ABBC5000A631B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8FK9FG2AA9;
+				INFOPLIST_FILE = SmitivAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smitiv.SmitivAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmitivApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A505207211ABBC5000A631B /* Build configuration list for PBXProject "SmitivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A505234211ABBC5000A631B /* Debug */,
+				6A505235211ABBC5000A631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A505236211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A505237211ABBC5000A631B /* Debug */,
+				6A505238211ABBC5000A631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A505239211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A50523A211ABBC5000A631B /* Debug */,
+				6A50523B211ABBC5000A631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A50523C211ABBC5000A631B /* Build configuration list for PBXNativeTarget "SmitivAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A50523D211ABBC5000A631B /* Debug */,
+				6A50523E211ABBC5000A631B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A505204211ABBC5000A631B /* Project object */;
+}

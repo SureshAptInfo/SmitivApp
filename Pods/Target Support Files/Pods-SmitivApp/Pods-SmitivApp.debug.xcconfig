@@ -1,0 +1,11 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AIFlatSwitch" "${PODS_CONFIGURATION_BUILD_DIR}/BFPaperButton" "${PODS_CONFIGURATION_BUILD_DIR}/DLRadioButton" "${PODS_CONFIGURATION_BUILD_DIR}/MaterialKit" "${PODS_CONFIGURATION_BUILD_DIR}/PXGoogleDirections" "${PODS_ROOT}/PXGoogleDirections/Dependencies"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AIFlatSwitch/AIFlatSwitch.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/BFPaperButton/BFPaperButton.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/DLRadioButton/DLRadioButton.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/MaterialKit/MaterialKit.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PXGoogleDirections/PXGoogleDirections.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"icucore" -l"z" -framework "AIFlatSwitch" -framework "AVFoundation" -framework "Accelerate" -framework "BFPaperButton" -framework "CoreBluetooth" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreText" -framework "DLRadioButton" -framework "Foundation" -framework "GLKit" -framework "GoogleMaps" -framework "GoogleMapsBase" -framework "GoogleMapsCore" -framework "ImageIO" -framework "MaterialKit" -framework "OpenGLES" -framework "PXGoogleDirections" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
