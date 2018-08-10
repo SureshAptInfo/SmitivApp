@@ -15,17 +15,14 @@
 		6A5B2017211B16C0000C1801 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B2016211B16C0000C1801 /* GoogleMaps.bundle */; };
 		6A5B201B211B1742000C1801 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B2018211B1742000C1801 /* CoreData.framework */; };
 		6A5B201C211B1742000C1801 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B2019211B1742000C1801 /* CoreLocation.framework */; };
-		6A5B201D211B1742000C1801 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B201A211B1742000C1801 /* MobileCoreServices.framework */; };
 		6A5B201E211B1ADD000C1801 /* PXGoogleDirections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */; };
-		6A5B2021211B54C9000C1801 /* HeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */; };
-		6A5B2023211B54F3000C1801 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */; };
-		6A5B202A211B556E000C1801 /* AvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2027211B556E000C1801 /* AvatarImageView.swift */; };
-		6A5B202B211B556E000C1801 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2029211B556E000C1801 /* FXBlurView.m */; };
 		6A5B202D211BDB07000C1801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A99C599211B03F900A3441D /* Main.storyboard */; };
 		6A5B202F211C0A8A000C1801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B202E211C0A8A000C1801 /* ViewController.swift */; };
+		6A5B2031211C3F5A000C1801 /* ChildPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2030211C3F5A000C1801 /* ChildPageViewController.swift */; };
+		6A5B2033211C42DD000C1801 /* StretchyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B2032211C42DD000C1801 /* StretchyHeaderViewController.swift */; };
+		6A5B2034211C6CCE000C1801 /* AIFlatSwitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5B2035211C6CCE000C1801 /* AIFlatSwitch.framework */; };
 		6A99C595211B03D000A3441D /* GoogleDirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */; };
 		6A99C596211B03D000A3441D /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C592211B03D000A3441D /* TimerViewController.swift */; };
-		6A99C598211B03D000A3441D /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C594211B03D000A3441D /* ChildViewController.swift */; };
 		6A99C59F211B0D2000A3441D /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A99C59D211B0D2000A3441D /* ResultsViewController.swift */; };
 		D3FD74B554222A599A844EB8 /* Pods_SmitivApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F14E769C977888643DF37B9 /* Pods_SmitivApp.framework */; };
 /* End PBXBuildFile section */
@@ -66,17 +63,13 @@
 		6A5B2019211B1742000C1801 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6A5B201A211B1742000C1801 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PXGoogleDirections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCollectionView.swift; sourceTree = "<group>"; };
-		6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
 		6A5B2026211B556D000C1801 /* SmitivApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmitivApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		6A5B2027211B556E000C1801 /* AvatarImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvatarImageView.swift; path = Helpers/AvatarImageView.swift; sourceTree = "<group>"; };
-		6A5B2028211B556E000C1801 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXBlurView.h; path = Helpers/FXBlurView.h; sourceTree = "<group>"; };
-		6A5B2029211B556E000C1801 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXBlurView.m; path = Helpers/FXBlurView.m; sourceTree = "<group>"; };
-		6A5B202C211B560D000C1801 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = Helpers/Header.h; sourceTree = "<group>"; };
 		6A5B202E211C0A8A000C1801 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A5B2030211C3F5A000C1801 /* ChildPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildPageViewController.swift; sourceTree = "<group>"; };
+		6A5B2032211C42DD000C1801 /* StretchyHeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StretchyHeaderViewController.swift; sourceTree = "<group>"; };
+		6A5B2035211C6CCE000C1801 /* AIFlatSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AIFlatSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleDirectionViewController.swift; sourceTree = "<group>"; };
 		6A99C592211B03D000A3441D /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
-		6A99C594211B03D000A3441D /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		6A99C59A211B03F900A3441D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A99C59D211B0D2000A3441D /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		F671C7E26EB779CB8075CCA8 /* Pods-SmitivApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmitivApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmitivApp/Pods-SmitivApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,10 +80,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A5B2034211C6CCE000C1801 /* AIFlatSwitch.framework in Frameworks */,
 				6A5B201E211B1ADD000C1801 /* PXGoogleDirections.framework in Frameworks */,
 				6A5B201B211B1742000C1801 /* CoreData.framework in Frameworks */,
 				6A5B201C211B1742000C1801 /* CoreLocation.framework in Frameworks */,
-				6A5B201D211B1742000C1801 /* MobileCoreServices.framework in Frameworks */,
 				D3FD74B554222A599A844EB8 /* Pods_SmitivApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,22 +132,17 @@
 			children = (
 				6A50520F211ABBC5000A631B /* AppDelegate.swift */,
 				6A5B202E211C0A8A000C1801 /* ViewController.swift */,
-				6A99C594211B03D000A3441D /* ChildViewController.swift */,
 				6A99C591211B03D000A3441D /* GoogleDirectionViewController.swift */,
 				6A99C592211B03D000A3441D /* TimerViewController.swift */,
 				6A99C59D211B0D2000A3441D /* ResultsViewController.swift */,
-				6A5B2020211B54C9000C1801 /* HeaderCollectionView.swift */,
-				6A5B2022211B54F3000C1801 /* ListCollectionViewCell.swift */,
-				6A5B202C211B560D000C1801 /* Header.h */,
-				6A5B2027211B556E000C1801 /* AvatarImageView.swift */,
-				6A5B2028211B556E000C1801 /* FXBlurView.h */,
-				6A5B2029211B556E000C1801 /* FXBlurView.m */,
 				6A99C599211B03F900A3441D /* Main.storyboard */,
 				6A505218211ABBC5000A631B /* Assets.xcassets */,
 				6A50521A211ABBC5000A631B /* LaunchScreen.storyboard */,
 				6A50521D211ABBC5000A631B /* Info.plist */,
 				6A5B2016211B16C0000C1801 /* GoogleMaps.bundle */,
 				6A5B2026211B556D000C1801 /* SmitivApp-Bridging-Header.h */,
+				6A5B2030211C3F5A000C1801 /* ChildPageViewController.swift */,
+				6A5B2032211C42DD000C1801 /* StretchyHeaderViewController.swift */,
 			);
 			path = SmitivApp;
 			sourceTree = "<group>";
@@ -189,6 +177,7 @@
 		CFE0EC8E44E9B50E2E9C302D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A5B2035211C6CCE000C1801 /* AIFlatSwitch.framework */,
 				6A5B201F211B1ADD000C1801 /* PXGoogleDirections.framework */,
 				6A5B2018211B1742000C1801 /* CoreData.framework */,
 				6A5B2019211B1742000C1801 /* CoreLocation.framework */,
@@ -381,15 +370,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5B202A211B556E000C1801 /* AvatarImageView.swift in Sources */,
 				6A505210211ABBC5000A631B /* AppDelegate.swift in Sources */,
-				6A99C598211B03D000A3441D /* ChildViewController.swift in Sources */,
-				6A5B2023211B54F3000C1801 /* ListCollectionViewCell.swift in Sources */,
+				6A5B2033211C42DD000C1801 /* StretchyHeaderViewController.swift in Sources */,
 				6A5B202F211C0A8A000C1801 /* ViewController.swift in Sources */,
 				6A99C596211B03D000A3441D /* TimerViewController.swift in Sources */,
-				6A5B2021211B54C9000C1801 /* HeaderCollectionView.swift in Sources */,
 				6A99C59F211B0D2000A3441D /* ResultsViewController.swift in Sources */,
-				6A5B202B211B556E000C1801 /* FXBlurView.m in Sources */,
+				6A5B2031211C3F5A000C1801 /* ChildPageViewController.swift in Sources */,
 				6A99C595211B03D000A3441D /* GoogleDirectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

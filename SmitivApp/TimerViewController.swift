@@ -51,7 +51,7 @@ class TimerViewController: UIViewController {
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         timer.invalidate()
-        seconds = 60
+        seconds = 2100
         timerLabel.text = timeString(time: TimeInterval(seconds))
         isTimerRunning = false
         //pauseButton.isEnabled = false
@@ -112,26 +112,26 @@ class TimerViewController: UIViewController {
         
         
     }
+    
     @objc func applicationDidBecomeActive() {
         let date1 = UserDefaults.standard.object(forKey: "background") as! Date
-        let date2 = Date(timeIntervalSinceNow: 12600)
+        let date2 = Date()
         let diff = Int(date2.timeIntervalSince1970 - date1.timeIntervalSince1970)
         
         //     let hours = diff / 3600
         //   let minutes = (diff - hours * 3600) / 60
-        let secondsdiff =  Int(diff) % 60
+        //let secondsdiff =  Int(diff) % 60
         
         //let intialseconds =  UserDefaults.standard.integer(forKey: "SecondsActualIntilazation")
         
         let currentseconds =  UserDefaults.standard.integer(forKey: "currentseconds")
         
-        seconds = currentseconds - secondsdiff
+        seconds = currentseconds - diff
         runTimer()
         isTimerRunning=true
         
-        
-        
     }
+    
     @objc func applicationDidEnterBackGround(){
         
         UserDefaults.standard.set(seconds, forKey: "currentseconds")

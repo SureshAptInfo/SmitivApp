@@ -171,14 +171,29 @@ class ResultsViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func RefreshCurrenLocation() {
-        directionsAPI.from = PXLocation.coordinateLocation(CLLocationCoordinate2DMake((self.userLocation?.coordinate.latitude)!, (self.userLocation?.coordinate.longitude)!))
+        
+        print(self.userLocation?.coordinate.latitude as Any)
+        print(self.userLocation?.coordinate.longitude as Any)
+        
+        //17.3850
+        //78.4867
+        
+        //directionsAPI.from = PXLocation.coordinateLocation(CLLocationCoordinate2DMake(17.3850, 78.4867))
+        
+        //directionsAPI.from = PXLocation.coordinateLocation(CLLocationCoordinate2DMake((self.userLocation?.coordinate.latitude)!, (self.userLocation?.coordinate.longitude)!))
         //directionsAPI.to = PXLocation.namedLocation("Chennai")
         
-        directionsAPI.to = PXLocation.coordinateLocation(CLLocationCoordinate2DMake(13.0827, 80.2707))
+        //directionsAPI.to = PXLocation.coordinateLocation(CLLocationCoordinate2DMake(13.0827, 80.2707))
         
         //13.0827
         
         //80.2707
+        
+        
+        directionsAPI.from = PXLocation.namedLocation("Nellore")
+        directionsAPI.to = PXLocation.namedLocation("Chennai")
+        
+        
         
         directionsAPI.calculateDirections { (response) -> Void in
             DispatchQueue.main.async(execute: { () -> Void in
@@ -188,11 +203,17 @@ class ResultsViewController: UIViewController, CLLocationManagerDelegate {
                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 case let .success(request, routes):
+                    
+                    self.request = request
+                    self.results = routes
+                    self.updateRoute()
+                    /*
                     if let rvc = self.storyboard?.instantiateViewController(withIdentifier: "Results") as? ResultsViewController {
                         rvc.request = request
                         rvc.results = routes
                         self.present(rvc, animated: true, completion: nil)
                     }
+                     */
                 }
             })
             
@@ -243,8 +264,8 @@ class ResultsViewController: UIViewController, CLLocationManagerDelegate {
 		}
 		mapView.animate(with: GMSCameraUpdate.fit(results[routeIndex].bounds!, withPadding: 40.0))
 		results[routeIndex].drawOnMap(mapView, approximate: false, strokeColor: UIColor.purple, strokeWidth: 4.0)
-		results[routeIndex].drawOriginMarkerOnMap(mapView, title: "Origin", color: UIColor.green, opacity: 1.0, flat: true)
-		results[routeIndex].drawDestinationMarkerOnMap(mapView, title: "Destination", color: UIColor.red, opacity: 1.0, flat: true)
+		results[routeIndex].drawOriginMarkerOnMap(mapView, title: "Hyderabad", color: UIColor.green, opacity: 1.0, flat: true)
+		results[routeIndex].drawDestinationMarkerOnMap(mapView, title: "Chennai", color: UIColor.red, opacity: 1.0, flat: true)
 		directions.reloadData()
 	}
 }
